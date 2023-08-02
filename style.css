@@ -1,0 +1,61 @@
+.menu{
+  background: url(src/imagem/6\ 2.png);
+  width: 337px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  
+}
+  .boat{
+    background: url(src/imagem/3\ 1.png);
+    width: 337px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+  .sand{
+    background: url(src/imagem/4\ 1.png);
+    width: 337px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+.starry{
+  background: url(src/imagem/5\ 2.png);
+  width: 337px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+.container{
+  display: flex;
+  
+  align-items: center;
+  /* border: 2px solid; */
+  /* height: 600px; */
+  margin: 10px;
+  padding: 10px;
+  grid-gap: 10px;
+
+}
+header:hover{
+
+  border: 2px solid #e1e2e3;
+  background-color:#e1e2e3;
+}
+.informacoes{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 7px;
+  color: aliceblue;
+  padding-left: 10px;
+  margin: 10px;
+}
+.container:hover{
+  /* color: #e1e2e3; */
+}
